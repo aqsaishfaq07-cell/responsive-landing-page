@@ -100,7 +100,6 @@ body{
     font-weight:500;
 }
 
-/* About + Form */
 
 .container{
     width:80%;
@@ -193,8 +192,11 @@ body{
 /* Banner */
 
 .banner{
+    background-image: url(images/photo-1783542784656-834b97b3954a.avif);
+    background-repeat: repeat;
+    background-size: cover;
     width:100%;
-    background:#07263e;
+    background-color:#07263e;
     color:white;
     padding:70px 10%;
 }
@@ -237,8 +239,11 @@ body{
 .image{
     width:90px;
     height:90px;
-    background:#ddd;
+    background-color:#ddd;
     margin:0 auto 25px;
+}
+.image img{
+    height: 100px;
 }
 
 .card h3{
@@ -294,6 +299,7 @@ body{
     text-align: center;
 }
 .grey-banner{
+    background-image: url(images/wallppr.jpg);
     background-color: #6f95be;
     margin-top: 50px;
     color: white;
@@ -320,6 +326,16 @@ body{
     width: 90%;
     margin: 40px auto;
 }
+.banner1{
+     background-image: url(images/premium_photo-1783280581304-5bd2d87c3139.avif);
+    background-repeat: repeat;
+    background-size: cover;
+    width:100%;
+    background-color:#07263e;
+    color:white;
+    padding:70px 10%;
+
+}
 .item{
     text-align: center;
 }
@@ -328,6 +344,10 @@ body{
     width: 180px;
     background-color: #88929c;
     margin: 0px auto 20px;
+}
+.image2 img{
+    height: 120px;
+    width: 180px;
 }
 .item p{
     margin-top: 12px;   /* box ke neeche text */
@@ -357,10 +377,10 @@ body{
     margin-top: 30px;
     
 }
-.circle-img{
-    background-color: #88929c;
-    border-radius: 50%;
-    width: 120px;
+
+.circle-img img{
+     border-radius: 50%;
+     width: 120px;
     height: 120px;
     flex-shrink: 0;
 }
@@ -381,6 +401,17 @@ body{
     color: white;
     height: 120px;
 
+}
+.banner1 h2{
+    width:60%;
+    font-size:38px;
+    margin-bottom:20px;
+    font-weight:500;
+}
+
+.banner1 p{
+    width:60%;
+    line-height:28px;
 }
 .last-banner{
     display: flex;
